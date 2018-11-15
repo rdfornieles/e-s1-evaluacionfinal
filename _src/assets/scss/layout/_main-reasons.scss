@@ -1,6 +1,13 @@
 .reasons {
     background-color: #eff9ff;
 }
+.container-reasons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 15px 60px 15px;
+}
 .titlesection {
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
@@ -8,13 +15,20 @@
     color: black;
     text-transform: capitalize; 
 }
+.text-reasons {
+    list-style: none;
+}
+.list-text {
+    padding-top: 45px;
+    line-height: 1.5;
+}
 .title-p {
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
     font-size: 18px;
     color: black;
 }
-.text-reason {
+.text-list {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: black;
@@ -27,6 +41,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 45px;
 }
 .more {
     text-decoration: none;
