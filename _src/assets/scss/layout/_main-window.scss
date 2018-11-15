@@ -1,0 +1,45 @@
+.container {
+    margin: 30px 15px 45px 15px;
+}
+.tips {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #8ccbea;
+    text-transform: capitalize;
+}
+.title-section {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: black;
+    text-transform: capitalize;
+}
+.text-window {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #4a4a4a;
+    padding-top: 15px;
+}
+.button-go {
+    background-color: white;
+    width: 76px;
+    height: 45px;
+    border: 2px solid #f26002;
+    border-radius: 22.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px; 
+    transition: background-color ease 1s;
+    &:hover {
+        border: 2px solid #8ccbea;
+        background-color: #8ccbea;
+    }
+}
+.go {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #f26002;
+    font-size: 20px;
+    font-weight: 500;
+}
