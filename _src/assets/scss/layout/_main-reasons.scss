@@ -1,0 +1,41 @@
+.reasons {
+    background-color: #eff9ff;
+}
+.titlesection {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: black;
+    text-transform: capitalize; 
+}
+.title-p {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+}
+.text-reason {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: black;
+}
+.button-more {
+    background-color: #f26002;
+    width: 184px;
+    height: 45px;
+    border-radius: 22.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.more {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    transition: color ease 1s;
+    &:hover {
+        color: #8ccbea;
+    }
+}
