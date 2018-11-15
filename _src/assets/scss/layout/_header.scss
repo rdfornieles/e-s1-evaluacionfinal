@@ -7,7 +7,7 @@
     background-position: center;
 }
 .text-header {
-    padding-top: 284px;
+    padding-top: 50vh;
 }
 .title {
     font-family: 'Roboto Slab', serif;
@@ -23,4 +23,18 @@
     text-align: center;
     color: white;
     padding-top: 10px;
+}
+.button-fixed {
+    background-color: #0271bc;
+    width: 44px;
+    height: 44px;
+    position: fixed;
+    top: 0%;
+}
+.button-hero {
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 22.5px;
+    margin: 45px auto 53px auto;
 }
