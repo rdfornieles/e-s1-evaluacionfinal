@@ -1,5 +1,8 @@
+.empty {
+    height: 30px;
+}
 .container {
-    margin: 30px 15px 45px 15px;
+    margin: 0 15px 45px 15px;
 }
 .tips {
     font-family: $font-second;
@@ -50,8 +53,11 @@
     align-items: center;
 }
 @media all and (min-width: 768px) {
+    .empty {
+        height: 30px;
+    }
     .container {
-        margin: 30px 39px 60px 39px;
+        margin: 0 39px 60px 39px;
     }
     .title-section {
         font-size: 26px;
@@ -69,8 +75,11 @@
 }
 
 @media all and (min-width: 1200px) {
+    .empty {
+        height: 60px;
+    }
     .container {
-        margin: 60px 275px 60px 275px;
+        margin: 0 275px 60px 275px;
     }
     .tips {
         font-size: 16px;
