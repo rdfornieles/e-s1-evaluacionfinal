@@ -10,18 +10,18 @@
     padding-top: 50vh;
 }
 .title {
-    font-family: 'Roboto Slab', serif;
+    font-family: $font-principal;
     font-size: 42px;
     font-weight: 700;
     text-align: center;
-    color: white;
+    color: $color-principal;
     text-transform: uppercase;
 }
 .subtitle {
-    font-family: 'Roboto', sans-serif;
+    font-family: $font-second;
     font-size: 16px;
     text-align: center;
-    color: white;
+    color: $color-principal;
     padding-top: 10px;
 }
 .button-fixed {
@@ -32,9 +32,9 @@
     top: 0%;
 }
 .button-hero {
-    background-color: white;
+    background-color: $color-principal;
     width: 45px;
     height: 45px;
-    border-radius: 22.5px;
+    border-radius: $radius;
     margin: 45px auto 53px auto;
 }
