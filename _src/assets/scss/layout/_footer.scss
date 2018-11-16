@@ -3,7 +3,7 @@
     position: relative;
 }
 .footer {
-    height: 20vh;
+    height: 25vh;
 }
 .button-footer {
     background-color: $color-principal;
@@ -11,7 +11,7 @@
     height: 45px;
     border-radius: $radius;
     position: absolute;
-    top: -20%;
+    top: -16%;
     left: 50%;
     transform: translate(-50%, 0);
     padding-bottom: 15px;
@@ -30,6 +30,9 @@
     justify-content: center;
     padding-top: 38px;
 }
+.text-footer-container {
+    padding-top: 15px;
+}
 .text-heart {
     color: $color-principal;
     font-family: $font-second;
@@ -40,4 +43,9 @@
 }
 .heart {
     color: $color-button;
+}
+@media all and (min-width: 768px) {
+    .footer {
+        height: 15vh;
+    }
 }
