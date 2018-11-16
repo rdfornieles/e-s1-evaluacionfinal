@@ -48,8 +48,13 @@
 .more {
     text-decoration: none;
     font-family: $font-second;
+    width: 184px;
+    height: 45px;
     font-weight: 500;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: $color-principal;
     transition: color ease 1s;
     &:hover {
@@ -81,12 +86,18 @@
         margin-top: 60px;
         width: 210px;
     }
+    .more {
+        width: 210px;
+    }
 }
 @media all and (min-width: 1200px) {
     .titlesection {
         font-size: 32px;
     }
     .button-more {
+        width: 255px;
+    }
+    .more {
         width: 255px;
     }
     .text-reasons {

@@ -21,6 +21,11 @@
 }
 .arrow-footer{
     margin-top: 20px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .text-footer {
     color: $color-principal;
