@@ -1,15 +1,18 @@
 .empty {
     height: 30px;
 }
+
 .container {
     margin: 0 15px 45px 15px;
 }
+
 .tips {
     font-family: $font-second;
     font-size: 14px;
     color: #8ccbea;
     text-transform: capitalize;
 }
+
 .title-section {
     font-family: $font-principal;
     font-weight: 700;
@@ -17,6 +20,7 @@
     color: $color-second;
     text-transform: capitalize;
 }
+
 .text-window {
     font-family: $font-second;
     font-size: 18px;
@@ -24,6 +28,7 @@
     padding-top: 15px;
     line-height: 1.5;
 }
+
 .button-go {
     background-color: $color-principal;
     width: 76px;
@@ -33,13 +38,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px; 
+    margin-top: 30px;
     transition: background-color ease 1s;
     &:hover {
         border: 2px solid #8ccbea;
         background-color: #8ccbea;
     }
 }
+
 .go {
     text-decoration: none;
     font-family: $font-second;
@@ -52,6 +58,7 @@
     justify-content: center;
     align-items: center;
 }
+
 @media all and (min-width: 768px) {
     .empty {
         height: 30px;
