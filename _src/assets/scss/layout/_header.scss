@@ -30,6 +30,9 @@
     height: 44px;
     position: fixed;
     top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .button-hero {
     background-color: $color-principal;
@@ -37,4 +40,7 @@
     height: 45px;
     border-radius: $radius;
     margin: 45px auto 53px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
