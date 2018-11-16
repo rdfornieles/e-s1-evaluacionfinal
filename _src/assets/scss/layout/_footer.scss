@@ -1,10 +1,30 @@
 .final {
     background-color: #304268;
+    position: relative;
 }
 .footer {
     height: 20vh;
 }
+.button-footer {
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 22.5px;
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding-bottom: 15px;
+}
 .text-footer {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    padding-top: 38px;
+}
+.text-heart {
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
