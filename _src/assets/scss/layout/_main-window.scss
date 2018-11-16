@@ -2,31 +2,31 @@
     margin: 30px 15px 45px 15px;
 }
 .tips {
-    font-family: 'Roboto', sans-serif;
+    font-family: $font-second;
     font-size: 14px;
     color: #8ccbea;
     text-transform: capitalize;
 }
 .title-section {
-    font-family: 'Roboto Slab', serif;
+    font-family: $font-principal;
     font-weight: 700;
     font-size: 24px;
-    color: black;
+    color: $color-second;
     text-transform: capitalize;
 }
 .text-window {
-    font-family: 'Roboto', sans-serif;
+    font-family: $font-second;
     font-size: 18px;
     color: #4a4a4a;
     padding-top: 15px;
     line-height: 1.5;
 }
 .button-go {
-    background-color: white;
+    background-color: $color-principal;
     width: 76px;
     height: 45px;
-    border: 2px solid #f26002;
-    border-radius: 22.5px;
+    border: 2px solid $color-button;
+    border-radius: $radius;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,8 +39,8 @@
 }
 .go {
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    color: #f26002;
+    font-family: $font-second;
+    color: $color-button;
     font-size: 20px;
     font-weight: 500;
 }

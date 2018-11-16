@@ -6,10 +6,10 @@
     height: 20vh;
 }
 .button-footer {
-    background-color: white;
+    background-color: $color-principal;
     width: 45px;
     height: 45px;
-    border-radius: 22.5px;
+    border-radius: $radius;
     position: absolute;
     top: -20%;
     left: 50%;
@@ -17,21 +17,21 @@
     padding-bottom: 15px;
 }
 .text-footer {
-    color: white;
-    font-family: 'Roboto', sans-serif;
+    color: $color-principal;
+    font-family: $font-second;
     font-size: 14px;
     display: flex;
     justify-content: center;
     padding-top: 38px;
 }
 .text-heart {
-    color: white;
-    font-family: 'Roboto', sans-serif;
+    color: $color-principal;
+    font-family: $font-second;
     font-size: 14px;
     display: flex;
     justify-content: center;
     padding-top: 15px;
 }
 .heart {
-    color: #f26002;
+    color: $color-button;
 }
