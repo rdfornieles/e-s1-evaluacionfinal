@@ -2,9 +2,11 @@
     background-color: #304268;
     position: relative;
 }
+
 .footer {
-    height: 25vh;
+    height: 128px;
 }
+
 .button-footer {
     background-color: $color-principal;
     width: 45px;
@@ -13,14 +15,25 @@
     position: absolute;
     top: -16%;
     left: 50%;
-    transform: translate(-50%, 0);
+    transform: translateX(-50%);
     padding-bottom: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    animation: jump 2s ease-in infinite;
 }
-.arrow-footer{
+
+@keyframes jump {
+    0% {
+        transform: translate(-50%, 0);
+    }
+    100% {
+        transform: translate(-50%, 10px);
+    }
+}
+
+.arrow-footer {
     margin-top: 20px;
     width: 45px;
     height: 45px;
@@ -28,6 +41,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .text-footer {
     color: $color-principal;
     font-family: $font-second;
@@ -36,9 +50,11 @@
     justify-content: center;
     padding-top: 38px;
 }
+
 .text-footer-container {
     padding-top: 15px;
 }
+
 .text-heart {
     color: $color-principal;
     font-family: $font-second;
@@ -47,17 +63,8 @@
     justify-content: center;
     padding-top: 15px;
 }
+
 .heart {
     color: $color-button;
     padding: 0 4px 0 4px;
-}
-@media all and (min-width: 768px) {
-    .footer {
-        height: 15vh;
-    }
-}
-@media all and (min-width: 1200px) {
-    .footer {
-        height: 25vh;
-    }
 }

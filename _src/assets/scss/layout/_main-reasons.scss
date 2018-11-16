@@ -1,6 +1,7 @@
 .reasons {
     background-color: #eff9ff;
 }
+
 .container-reasons {
     display: flex;
     flex-direction: column;
@@ -8,33 +9,39 @@
     text-align: center;
     padding: 30px 15px 60px 15px;
 }
+
 .titlesection {
     font-family: $font-principal;
     font-weight: 700;
     font-size: 24px;
     color: $color-second;
-    text-transform: capitalize; 
+    text-transform: capitalize;
 }
+
 .text-reasons {
     list-style: none;
     padding-left: 70px;
     padding-right: 70px;
 }
+
 .list-text {
     padding-top: 45px;
     line-height: 1.5;
 }
+
 .title-p {
     font-family: $font-principal;
     font-weight: 700;
     font-size: 18px;
     color: $color-second;
 }
+
 .text-list {
     font-family: $font-second;
     font-size: 18px;
     color: $color-second;
 }
+
 .button-more {
     background-color: $color-button;
     width: 184px;
@@ -45,6 +52,7 @@
     justify-content: center;
     margin-top: 45px;
 }
+
 .more {
     text-decoration: none;
     font-family: $font-second;
@@ -61,6 +69,7 @@
         color: #8ccbea;
     }
 }
+
 @media all and (min-width: 768px) {
     .container-reasons {
         padding: 30px 0 60px 0;
@@ -90,6 +99,7 @@
         width: 210px;
     }
 }
+
 @media all and (min-width: 1200px) {
     .titlesection {
         font-size: 32px;

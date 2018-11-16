@@ -6,9 +6,11 @@
     background-size: cover;
     background-position: center;
 }
+
 .text-header {
     padding-top: 50vh;
 }
+
 .title {
     font-family: $font-principal;
     font-size: 42px;
@@ -17,6 +19,7 @@
     color: $color-principal;
     text-transform: uppercase;
 }
+
 .subtitle {
     font-family: $font-second;
     font-size: 16px;
@@ -24,6 +27,7 @@
     color: $color-principal;
     padding-top: 10px;
 }
+
 .button-fixed {
     background-color: #0271bc;
     width: 44px;
@@ -34,6 +38,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .stripes {
     width: 44px;
     height: 44px;
@@ -41,6 +46,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .button-hero {
     background-color: $color-principal;
     width: 45px;
@@ -51,6 +57,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .arrow-header {
     width: 45px;
     height: 45px;
@@ -70,6 +77,7 @@
         font-size: 24px;
     }
 }
+
 @media all and (min-width: 1200px) {
     .text-header {
         padding-top: 55vh;
