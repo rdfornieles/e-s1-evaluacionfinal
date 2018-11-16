@@ -44,3 +44,15 @@
     justify-content: center;
     align-items: center;
 }
+
+@media all and (min-width: 768px) {
+    .text-header {
+        padding-top: 60vh;
+    }
+    .title {
+        font-size: 80px;
+    }
+    .subtitle {
+        font-size: 24px;
+    }
+}
