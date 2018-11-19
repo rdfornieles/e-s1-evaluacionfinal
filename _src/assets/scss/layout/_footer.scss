@@ -1,10 +1,13 @@
 .final {
-    background-color: #304268;
+    background-color: $color-blue-electric;
     position: relative;
+    color: $color-second;
+   
 }
 
 .footer {
-    height: 128px;
+    height: 200px;
+   
 }
 
 .button-footer {
@@ -43,12 +46,11 @@
 }
 
 .text-footer {
-    color: $color-principal;
     font-family: $font-second;
     font-size: 14px;
     display: flex;
     justify-content: center;
-    padding-top: 38px;
+    padding-top: 50px;
 }
 
 .text-footer-container {
@@ -56,15 +58,24 @@
 }
 
 .text-heart {
-    color: $color-principal;
     font-family: $font-second;
     font-size: 14px;
     display: flex;
     justify-content: center;
     padding-top: 15px;
+    padding-bottom: 20px;
 }
 
 .heart {
     color: $color-button;
     padding: 0 4px 0 4px;
+}
+@media all and (min-width: 768px) {
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 30px;
+        flex-direction: row-reverse;
+    }
 }
